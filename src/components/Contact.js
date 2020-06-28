@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
+import Navigation from "./navigation";
+
 
 export default class Contact extends Component {
     render() {
         return (
-            <div className='app'>
-                contact page
+            <div>
+                <Navigation />
+                <div className='contact-page-wrapper'>
+                    contact page
+            </div>
             </div>
         );
     }
