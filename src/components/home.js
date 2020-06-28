@@ -32,7 +32,7 @@ export default class Home extends Component {
                         <img className="pool" src="https://images.unsplash.com/photo-1572331165267-854da2b10ccc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" />
                         <img className="gym" src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2168&q=80" />
                         <div className="fun-box-four box">
-                            24-hour gym & playground
+                            24-hour gym
                     </div>
                         <img className="playground" src="https://images.unsplash.com/photo-1579231847384-9de04c6c0e36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80" />
 

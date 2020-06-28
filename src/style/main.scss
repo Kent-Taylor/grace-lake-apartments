@@ -207,8 +207,9 @@ body {
       align-items: center;
 
       .floor-plan-card {
-          color: #02b8d0;
-          background-color: white;
+          color: white;
+        //   background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.burkedecor.com%2Fcollections%2Fwallpaper&psig=AOvVaw2t5KRpvV_Tfu-ME_Ov0iA4&ust=1593468629330000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMi4vLTDpeoCFQAAAAAdAAAAABAF");
+        //   background-repeat: no-repeat;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -219,10 +220,24 @@ body {
           width: 350px;
           margin: 17%;
           transition: ease-in-out 0.3s;
+          box-shadow: 19px 11px 24px 0px rgba(0,0,0,0.75);
 
-          h2 {
+          .card-text {
+              margin-top: 160px;
+          }
+          
+        // font-family: 'Dosis', sans-serif;
+
+
+          h1 {
               margin: 7px;
               text-transform: uppercase;
+              white-space: nowrap;
+          }
+
+          h3 {
+            white-space: nowrap;
+
           }
 
           img {
@@ -231,15 +246,74 @@ body {
               transition: ease-in-out 0.3s;
 
               &:hover {
-                  width: 500px;
+                  width: 600px;
               }
           }
 
           &:hover {
-              color: black;
-              font-size: 2rem;
+              color: white;
+            //   font-size: 2rem;
           }
       }
+  }
+
+  .room1 {
+    background-color: #431998;
+  }
+
+  .room2 {
+    background-color: #02b8d0;
+      
+}
+
+.room3 {
+    background-color: #e91e63;
+      
+}
+
+.room4 {
+    background-color: #48af48;
+      
+}
+
+.room5 {
+    background-color: #d5d522;
+
+}
+
+.room6 {
+    background-color: #ac2929;
+      
+}
+
+.room7 {
+    background-color: #4e014e;
+}
+
+.room8 {
+    background-color: #e91e63;
+}
+
+.room9 {
+    background-color: #02b8d0;
+}
+
+.floor-plan-card {
+    position: relative;
+    height: 140px;
+    transform: skew(-2deg) rotate(2deg);
+    -webkit-transform: skew(-2deg) rotate(2deg);
+    -moz-transform: skew(-2deg) rotate(2deg);
+  }
+  
+  .floor-plan-card img{
+    width: 110%;
+    position: absolute;
+    top: 25%;
+    margin-bottom: 25px;
+    transform: skew(2deg) rotate(-2deg) translateY(-50%);
+    -webkit-transform: skew(2deg) rotate(-2deg) translateY(-50%);
+    -moz-transform: skew(2deg) rotate(-2deg) translateY(-50%);
   }
 
   // map page
