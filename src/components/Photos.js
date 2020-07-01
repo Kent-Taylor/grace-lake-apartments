@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navigation from "./navigation";
+import Footer from './footer';
 
 
 export default class Photos extends Component {
@@ -11,6 +12,8 @@ export default class Photos extends Component {
                 <div className='photos-container'>
                     photos page
             </div>
+                <Footer />
+
             </div>
         );
     }

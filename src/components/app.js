@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Home from './home';
-import Footer from './footer';
 import FloorPlans from './FloorPlans';
 import Map from './Map';
 import Photos from "./Photos";
@@ -22,7 +21,6 @@ export default class App extends Component {
             <Route path="/contact" component={Contact} />
           </Switch>
         </BrowserRouter>
-        <Footer />
       </div>
     );
   }

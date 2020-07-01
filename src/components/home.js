@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import FadeInSection from "./FadeInSection";
 import Navigation from "./navigation";
+import Footer from './footer';
 
 export default class Home extends Component {
     render() {
@@ -49,6 +50,8 @@ export default class Home extends Component {
 
                     </div>
                 </div>
+                <Footer />
+
             </div>
         );
     }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navigation from "./navigation";
+import Footer from './footer';
 
 
 export default class Contact extends Component {
@@ -10,6 +11,8 @@ export default class Contact extends Component {
                 <div className='contact-page-wrapper'>
                     contact page
             </div>
+                <Footer />
+
             </div>
         );
     }

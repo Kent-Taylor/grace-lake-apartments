@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navigation from "./navigation";
+import Footer from './footer';
 
 import Room1 from "../images/room1.png";
 import Room2 from "../images/room2.png";
@@ -127,6 +128,8 @@ export default class FloorPlans extends Component {
                         </div>
                     </div>
                 </div>
+        <Footer />
+
             </div>
         );
     }

@@ -6,21 +6,27 @@ export default class Navigation extends Component {
     render() {
         return (
             <div className="nav-bar">
-                <h1>Grace Lake Apartments</h1>
-                <NavLink to="/" className="nav-link">
+
+                <NavLink to="/" className="logo-section home" activeClassName="active">
+                    Grace Lake Apartments
+                </NavLink>
+
+
+
+                <NavLink to="/" className="nav-link home" activeClassName="active">
                     Home
                 </NavLink>
 
-                <NavLink to="/floorplans" className="nav-link">
+                <NavLink to="/floorplans" className="nav-link" activeClassName="active">
                     Floorplans
             </NavLink>
-                <NavLink to="/map" className="nav-link">
+                <NavLink to="/map" className="nav-link" activeClassName="active">
                     Map
             </NavLink>
-                <NavLink to="/photos" className="nav-link">
+                <NavLink to="/photos" className="nav-link" activeClassName="active">
                     Photos
             </NavLink>
-                <NavLink to="/contacts" className="nav-link">
+                <NavLink to="/contacts" className="nav-link" activeClassName="active">
                     Contact
             </NavLink>
 
