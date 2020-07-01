@@ -357,3 +357,14 @@ body {
     align-items: center;
     width: 100%;
   }
+
+  // photo's page
+
+  .photos-container{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      img {
+          width: 50vw;
+      }
+  }
