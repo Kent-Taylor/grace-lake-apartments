@@ -8,7 +8,7 @@ export default class Navigation extends Component {
             <div className="nav-bar">
 
                 <NavLink to="/" className="logo-section home" activeClassName="active">
-                    Grace Lake Apartments
+                    <p>Grace Lake Apartments</p>
                 </NavLink>
 
 
@@ -26,7 +26,7 @@ export default class Navigation extends Component {
                 <NavLink to="/photos" className="nav-link" activeClassName="active">
                     Photos
             </NavLink>
-                <NavLink to="/contacts" className="nav-link" activeClassName="active">
+                <NavLink to="/contact" className="nav-link" activeClassName="active">
                     Contact
             </NavLink>
 

@@ -23,7 +23,7 @@ export default class Footer extends Component {
                     <NavLink to="/photos" className="nav-link">
                         Photos
             </NavLink>
-                    <NavLink to="/contacts" className="nav-link">
+                    <NavLink to="/" className="nav-link">
                         Contact
             </NavLink>
                 </div>

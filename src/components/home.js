@@ -11,7 +11,7 @@ export default class Home extends Component {
                 <div className="home-page-container">
                     <div className="feature-section">
                         <div className="featured-text">
-                            Featured text goes here so say something good gosh dang youuuuu!
+                            A community built for anybody and everybody.
                         </div>
                     </div>
                     <div className="image-links">
