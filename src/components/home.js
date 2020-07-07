@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import FadeInSection from "./FadeInSection";
+// import FadeInSection from "./FadeInSection";
 import Navigation from "./navigation";
 import Footer from './footer';
 
