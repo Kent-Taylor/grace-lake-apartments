@@ -4,14 +4,32 @@ import Footer from './footer';
 
 
 export default class Photos extends Component {
+    constructor() {
+        super()
+        this.state = {
+            view: "flase"
+        }
+    }
+    modal = () => {
+        console.log("This was clicked!")
+        this.setState ({
+            view: "true"
+        })
+    }
+
     render() {
         return (
             <div>
                 <Navigation />
+                <div className="photos-page-container">
+                    <div className="background-image">
+                        <div className="photo-message-box">
+                            Featured Photos
+                        </div>
+                    </div>
+                    <div className='photos-container'>
 
-                <div className='photos-container'>
-                        
-                        <img className="kitchen" src="https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2253&q=80" />
+                        <img className={this.state.view === "true" ? "modal" : "kitchen"} onClick={this.modal} src="https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2253&q=80" />
 
                         <img className="bedroom" src="https://images.unsplash.com/photo-1540518614846-7eded433c457?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2239&q=80" />
 
@@ -29,7 +47,18 @@ export default class Photos extends Component {
 
                         <img className="study" src="https://images.unsplash.com/photo-1514369118554-e20d93546b30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" />
 
+                        <img className="floors" src="https://images.unsplash.com/photo-1562663474-6cbb3eaa4d14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80" />
 
+                        <img className="floors" src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" />
+
+                        <img className="floors" src="https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80" />
+
+                        <img className="floors" src="https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80" />
+
+                        <img className="floors" src="https://images.unsplash.com/photo-1519974719765-e6559eac2575?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" />
+
+
+                    </div>
                 </div>
                 <Footer />
 
