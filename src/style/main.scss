@@ -6,6 +6,7 @@ html {
     font-size: 62.5%; // 1rem is 10px
     margin: 0;
     overflow-x: hidden;
+    
 }
 
 *,
@@ -265,8 +266,6 @@ body {
           align-items: center;
           flex-direction: column;
           border: 2px solid black;
-          border-right: 9px solid black;
-          border-bottom: 5px solid black;
           border-radius: 5px;
           height: 400px;
           width: 350px;
@@ -308,47 +307,6 @@ body {
           }
       }
   }
-
-  .room1 {
-    background-color: #431998;
-  }
-
-  .room2 {
-    background-color: #02b8d0;
-      
-}
-
-.room3 {
-    background-color: #e91e63;
-      
-}
-
-.room4 {
-    background-color: #48af48;
-      
-}
-
-.room5 {
-    background-color: #d5d522;
-
-}
-
-.room6 {
-    background-color: #ac2929;
-      
-}
-
-.room7 {
-    background-color: #4e014e;
-}
-
-.room8 {
-    background-color: #e91e63;
-}
-
-.room9 {
-    background-color: #02b8d0;
-}
 
 .floor-plan-card {
     position: relative;
