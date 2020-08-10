@@ -2,15 +2,15 @@ import React, { Component } from 'react';
 import Navigation from "./navigation";
 import Footer from './footer';
 
-import Room1 from "../images/room1.png";
-import Room2 from "../images/room2.png";
-// import Room3 from "../images/room3.png";
-import Room4 from "../images/room4.png";
-import Room5 from "../images/room5.png";
-import Room6 from "../images/room6.png";
-import Room7 from "../images/room7.png";
-import Room8 from "../images/room8.png";
-import Room9 from "../images/room9.png";
+import Room1 from "../images/room1.PNG";
+import Room2 from "../images/room2.PNG";
+// import Room3 from "../images/room3.PNG";
+import Room4 from "../images/room4.PNG";
+import Room5 from "../images/room5.PNG";
+import Room6 from "../images/room6.PNG";
+import Room7 from "../images/room7.PNG";
+import Room8 from "../images/room8.PNG";
+import Room9 from "../images/room9.PNG";
 
 
 export default class FloorPlans extends Component {
