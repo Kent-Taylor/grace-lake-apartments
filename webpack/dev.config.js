@@ -1,5 +1,5 @@
 const path = require('path');
-const { merge } = require('webpack-merge');
+const webpackMerge = require('webpack-merge');
 const webpackCommon = require('./common.config');
 
 const env = require('../env');
@@ -10,12 +10,12 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const DefinePlugin = require('webpack/lib/DefinePlugin');
 const HotModuleReplacementPlugin = require('webpack/lib/HotModuleReplacementPlugin');
 
-module.exports = merge(webpackCommon, {
+module.exports = webpackMerge(webpackCommon, {
 
   devtool: 'inline-source-map',
   mode: 'development',
   output: {
-  
+
     path: path.resolve(__dirname, '../static/dist'),
 
     filename: '[name].js',
