@@ -13,6 +13,7 @@ import Room8 from "../images/room8.PNG";
 import Room9 from "../images/room9.PNG";
 
 
+
 export default class FloorPlans extends Component {
     render() {
         return (
