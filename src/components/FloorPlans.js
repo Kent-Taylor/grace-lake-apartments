@@ -3,7 +3,7 @@ import Navigation from "./navigation";
 import Footer from './footer';
 
 import Room1 from "../images/room1.PNG";
-import Room2 from "../images/room2.PNG";
+import Room2 from "../images/room2.png";
 // import Room3 from "../images/room3.PNG";
 import Room4 from "../images/room4.PNG";
 import Room5 from "../images/room5.PNG";
