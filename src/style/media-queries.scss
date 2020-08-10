@@ -1,0 +1,68 @@
+@media(max-width: 675px){
+
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        height: 250px;
+    }
+
+    .home-page-container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .feature-section {
+        height: 100px;
+    }
+
+    .home-page-container > .feature-section > .featured-text {
+        font-size: 18px;
+        margin-top: 30%;
+        padding: 20px;
+        height: 60px;
+    }
+
+    .image-links {
+        width: 100vw;
+    }
+
+    .floor-plans-page {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .floor-plan-card-container {
+        width: 100vw;
+        margin-right: 75px;
+    }
+
+    .room9 img{
+        width: 200px !important;
+    }
+
+    .contact-page-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .background-image {
+        height: 30vh;
+    }
+    
+    .photo-message-box {
+        font-size: 18px;
+        margin-top: 10px;
+        height: 30%;
+    }
+
+    .photos-container {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            width: 100vw;
+        }
+    }
+}

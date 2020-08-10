@@ -9,6 +9,7 @@ import reducers from "./reducers";
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 import "./style/main.scss";
+import "./style/media-queries.scss";
 
 function main() {
   ReactDOM.render(
